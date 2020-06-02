@@ -2,9 +2,10 @@ public class SimuladorPokemon {
     public static void main(String[] args) {
         Movimientos[] movimientosCharmander = new Movimientos[4];
         Movimientos[] movimientosPikachu = new Movimientos[4];
-
-        Pokemon charmander = new Pokemon("Charmander", "Fuego", 50, 50, movimientosCharmander);
-        Pokemon pikachu = new Pokemon("Pikachu", "Fuego", 50, 50, movimientosPikachu);
+        movimientosCharmander[0] = new Movimientos("Normal", 120, 75);
+        movimientosPikachu[0] = new Movimientos("Normal", 120, 75);
+        Pokemon charmander = new Pokemon("Charmander", "Fuego", 250, 50, movimientosCharmander);
+        Pokemon pikachu = new Pokemon("Pikachu", "Fuego", 250, 50, movimientosPikachu);
 
         Pokemon[] equipoPaco = new Pokemon[6];
         Pokemon[] equipoPepe = new Pokemon[6];
