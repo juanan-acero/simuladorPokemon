@@ -3,9 +3,9 @@ public class Pokemon {
     String Tipo;
     Integer ps;
     Integer velocidad;
-    Movimiento[] movimientos;
+    Movimientos[] movimientos;
 
-    public Pokemon(String nombre, String tipo, Integer ps, Integer velocidad, Movimiento[] movimientos) {
+    public Pokemon(String nombre, String tipo, Integer ps, Integer velocidad, Movimientos[] movimientos) {
         this.nombre = nombre;
         Tipo = tipo;
         this.ps = ps;
