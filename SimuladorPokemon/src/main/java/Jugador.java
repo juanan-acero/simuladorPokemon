@@ -18,4 +18,9 @@ public class Jugador {
     public void setPokemon(Pokemon[] pokemon) {
         this.pokemon = pokemon;
     }
+
+    public Jugador(String nombre, Pokemon[] equipo) {
+        this.nombre = nombre;
+        this.pokemon = equipo;
+    }
 }

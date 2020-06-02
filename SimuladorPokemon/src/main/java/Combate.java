@@ -9,5 +9,6 @@ public class Combate {
 
     public void combatir() {
         System.out.println("El pokemon " + this.local.nombre + " gana el combate");
+        System.out.println("El pokemon " + this.visitante.nombre + " pierde el combate");
     }
 }
