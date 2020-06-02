@@ -1,7 +1,7 @@
 public class Jugador {
 
     String nombre;
-    Equipo [] pokemon;
+    Pokemon[] pokemon;
 
     public String getNombre() {
         return nombre;
@@ -11,11 +11,11 @@ public class Jugador {
         this.nombre = nombre;
     }
 
-    public Equipo[] getPokemon() {
+    public Pokemon[] getPokemon() {
         return pokemon;
     }
 
-    public void setPokemon(Equipo[] pokemon) {
+    public void setPokemon(Pokemon[] pokemon) {
         this.pokemon = pokemon;
     }
 }
