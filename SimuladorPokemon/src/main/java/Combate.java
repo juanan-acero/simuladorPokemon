@@ -8,9 +8,7 @@ public class Combate {
     }
 
     public void combatir() {
-        while (local.ps > 0 && visitante.ps > 0) {
             calcularDamage();
-        }
        // System.out.println("El pokemon " + this.local.nombre + " gana el combate");
        // System.out.println("El pokemon " + this.visitante.nombre + " pierde el combate");
     }
@@ -88,7 +86,7 @@ public class Combate {
                 System.out.println("El pokemon " + this.visitante.nombre + " se ha debilitado");
             }
         }
-        /*else {
+        else {
             Double orden = Math.random();
             if (orden > 0.5) {
                 damage = local.movimientos[0].potencia;
@@ -127,6 +125,6 @@ public class Combate {
                 }
             }
         }
-        return damage;*/
+        //return damage;
     }
 }

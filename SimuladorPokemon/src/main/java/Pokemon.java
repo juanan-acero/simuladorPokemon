@@ -10,6 +10,8 @@ public class Pokemon {
         this.tipo = tipo;
         this.ps = ps;
         this.velocidad = velocidad;
+        this.movimientos = new Movimientos[4];
         this.movimientos = movimientos;
+
     }
 }
