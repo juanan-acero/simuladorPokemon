@@ -8,11 +8,11 @@ public class Combate {
     }
 
     public void combatir() {
-            calcularDamage();
+            //calcularDamage();
        // System.out.println("El pokemon " + this.local.nombre + " gana el combate");
        // System.out.println("El pokemon " + this.visitante.nombre + " pierde el combate");
     }
-
+/*
     public void calcularDamage() {
         Integer damage;
         if (local.velocidad > visitante.velocidad) {
@@ -126,5 +126,5 @@ public class Combate {
             }
         }
         //return damage;
-    }
+    }*/
 }
