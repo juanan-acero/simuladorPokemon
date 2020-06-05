@@ -1,26 +1,12 @@
+import java.util.List;
+
 public class Jugador {
 
     String nombre;
-    Pokemon[] pokemon;
+    List<Pokemon> equipo;
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
+    public Jugador(String nombre, List<Pokemon> equipo) {
         this.nombre = nombre;
-    }
-
-    public Pokemon[] getPokemon() {
-        return pokemon;
-    }
-
-    public void setPokemon(Pokemon[] pokemon) {
-        this.pokemon = pokemon;
-    }
-
-    public Jugador(String nombre, Pokemon[] equipo) {
-        this.nombre = nombre;
-        this.pokemon = equipo;
+        this.equipo = equipo;
     }
 }

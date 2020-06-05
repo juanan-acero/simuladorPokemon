@@ -4,7 +4,7 @@ import java.util.List;
 public class SimuladorPokemon {
     public static void main(String[] args) {
 
-        Tipo tipoFuego = new Tipo("Fantasma");
+        Tipo tipoFuego = new Tipo("Fuego");
         List<String> deb = new ArrayList<String>();
         deb.add("Agua");
         deb.add("Roca");
@@ -25,17 +25,14 @@ public class SimuladorPokemon {
         movimientosPikachu[0] = new Movimientos("Normal", 120, 75);
         Pokemon pikachu = new Pokemon("Pikachu", tipoFuego, 50, 50, movimientosPikachu);
 
-        Pokemon[] equipoPaco = new Pokemon[6];
-        Pokemon[] equipoPepe = new Pokemon[6];
+        List<Pokemon> equipoPaco = new ArrayList<Pokemon>();
+        equipoPaco.add(new Pokemon("Charmander", tipoFuego, 50, 50, movimientosCharmander));
+        List<Pokemon> equipoPepe = new ArrayList<Pokemon>();
+        equipoPepe.add(new Pokemon("Charmander", tipoFuego, 50, 50, movimientosCharmander));
 
-        /*equipoPaco[0] = charmander;
-        equipoPepe[0] = pikachu;
 
-        Jugador jugador1 = new Jugador("Paco", equipoPaco);
-        Jugador jugador2 = new Jugador("Pepe", equipoPepe);
-
-        Combate combate = new Combate(jugador1.pokemon[0], jugador2.pokemon[0]);
-        combate.combatir();*/
+        Combate combate = new Combate(equipoPaco.get(0), equipoPepe.get(0));
+        /*combate.combatir();*/
 
         List<Pokemon> ejemploLista = new ArrayList<Pokemon>();
 
