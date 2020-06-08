@@ -51,13 +51,13 @@ public class SimuladorPokemon {
 
         Pokemon pikachu = new Pokemon("Pikachu", tipoFuego, 50, 50, listamovpik);
 
-        List<Pokemon> equipoPaco = new ArrayList<Pokemon>();
-        equipoPaco.add(new Pokemon("Charmander", tipoFuego, 50, 50, listamovchar));
+        List<Pokemon> equipoCocacola = new ArrayList<Pokemon>();
+        equipoCocacola.add(new Pokemon("Charmander", tipoFuego, 50, 50, listamovchar));
         List<Pokemon> equipoPepe = new ArrayList<Pokemon>();
         equipoPepe.add(new Pokemon("Charmander", tipoFuego, 50, 50, listamovchar));
 
 
-        Combate combate = new Combate(equipoPaco.get(0), equipoPepe.get(0));
+        Combate combate = new Combate(equipoCocacola.get(0), equipoPepe.get(0));
         /*combate.combatir();*/
 
         List<Pokemon> ejemploLista = new ArrayList<Pokemon>();
