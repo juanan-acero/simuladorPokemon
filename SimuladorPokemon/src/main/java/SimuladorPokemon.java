@@ -64,6 +64,7 @@ public class SimuladorPokemon {
         ejemploLista.add(new Pokemon("Charmander", tipoFuego, 50, 50, listamovchar));
         ejemploLista.add(new Pokemon("Pikachu", tipoFuego, 50, 50, listamovpik));
         ejemploLista.add(new Pokemon("Squirtle", tipoFuego, 50, 50, listamovsquir));
+        ejemploLista.add(new Pokemon("achosario", tipoFuego, 50, 70, listamovchar));
 
         System.out.println("Tenemos un total de " + ejemploLista.size() + " pokemon en el equipo");
 
